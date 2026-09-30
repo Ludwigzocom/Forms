@@ -1,0 +1,10 @@
+.done {
+  text-decoration: line-through;
+}
+
+button {
+  color: red;
+  height: 25px;
+  width: 75px;
+  border-radius: 0;
+}
