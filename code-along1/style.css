@@ -1,0 +1,62 @@
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-title {
+  font-size: 4rem;
+  border-bottom: black solid 1px;
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: grey;
+  min-height: 5rem;
+}
+
+.nav a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.homep {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 2rem;
+}
+
+form input,
+form textarea {
+  height: 2rem;
+  width: 20rem;
+  font-size: 1.75rem;
+}
+form textarea {
+  min-height: 10rem;
+}
+
+form button {
+  height: 4rem;
+  font-size: 2rem;
+}
+
+#error {
+  font-size: 1.5rem;
+  color: red;
+}
